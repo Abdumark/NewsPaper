@@ -22,7 +22,7 @@ body
   margin-top: 0;
   margin-bottom: 70px;
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
   background-color: black;
   color: white;
@@ -49,13 +49,14 @@ body
 }
 
 .footer1 ul
-{position: absolute;
+{position: relative;
 bottom: 0;
-left: 0;}
+left: 0;
+float: left;
+text-align: left;}
 
 .link
 {
-    text-decoration: none;
     color: black;
 }
 .link:hover{font-size: larger;}
@@ -90,10 +91,11 @@ left: 0;}
 .footer2 ul
 {
     position: absolute;
+    float: left;
     bottom: 0;
     left: 0;
 }
-.link1{text-decoration: none;
+.link1{
 color: black;}
 
 .link1:hover{font-size: larger;}
@@ -139,17 +141,17 @@ color: black;}
 
 .link2
 {
-    text-decoration: none;
     color: black;
 }
 
 .link2:hover{font-size: larger;}
 
-.footer3 .link2
+.footer3 li
 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
+    float: left;
 }
 
 
