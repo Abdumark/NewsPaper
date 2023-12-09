@@ -1,0 +1,156 @@
+body
+{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container
+{
+    column-count: 3;
+    text-align: justify;
+    font-family: Noto Nashtaliq Urdu, serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.container .header1
+{
+    column-span: all;
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 45px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container .header2
+{
+    column-span: all;
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 25px;
+  background-color: gray;
+  color: white;
+
+}
+
+
+
+.container img
+{
+    height: auto;
+    width:100%;
+}
+
+.footer1 ul
+{position: absolute;
+bottom: 0;
+left: 0;}
+
+.link
+{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{font-size: larger;}
+
+
+.container1
+{
+    column-count: 3;
+    text-align: justify;
+    font-family: Noto Nashtaliq Urdu, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container1 img
+{
+    height: auto;
+    width: 100%;
+}
+
+.container1 h1
+{
+    column-span: all;
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 35px;
+  background-color: black;
+  color: white;
+}
+
+.footer2 ul
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.link1{text-decoration: none;
+color: black;}
+
+.link1:hover{font-size: larger;}
+
+
+.container2
+{
+    column-count: 3;
+    text-align: justify;
+    font-family: Noto Nashtaliq Urdu, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container2 .header3
+{
+    column-span: all;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.container2 .header4
+{
+    column-span: all;
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 25px;
+  background-color: gray;
+  color: white;
+}
+
+.container2 img
+{
+    height: auto;
+    width: 100%;
+}
+
+.link2
+{
+    text-decoration: none;
+    color: black;
+}
+
+.link2:hover{font-size: larger;}
+
+.footer3 .link2
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
